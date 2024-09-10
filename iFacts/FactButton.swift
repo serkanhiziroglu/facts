@@ -14,6 +14,8 @@ struct FactButton: View {
     }
 }
 
-#Preview {
-    FactButton(action: {})
+struct FactButton_Previews: PreviewProvider {
+    static var previews: some View {
+        FactButton(action: {})
+    }
 }

@@ -16,6 +16,8 @@
 		B2EEBB982C90F8A000598CCF /* iFactsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EEBB972C90F8A000598CCF /* iFactsUITestsLaunchTests.swift */; };
 		B2EEBBAF2C91018700598CCF /* FactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EEBBAE2C91018700598CCF /* FactView.swift */; };
 		B2EEBBB12C91019C00598CCF /* FactButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EEBBB02C91019C00598CCF /* FactButton.swift */; };
+		B2EEBBB32C9103B500598CCF /* FactService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EEBBB22C9103B500598CCF /* FactService.swift */; };
+		B2EEBBB52C91086800598CCF /* FactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EEBBB42C91086800598CCF /* FactViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		B2EEBB972C90F8A000598CCF /* iFactsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFactsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B2EEBBAE2C91018700598CCF /* FactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactView.swift; sourceTree = "<group>"; };
 		B2EEBBB02C91019C00598CCF /* FactButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactButton.swift; sourceTree = "<group>"; };
+		B2EEBBB22C9103B500598CCF /* FactService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactService.swift; sourceTree = "<group>"; };
+		B2EEBBB42C91086800598CCF /* FactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +104,9 @@
 			children = (
 				B2EEBB7A2C90F89F00598CCF /* iFactsApp.swift */,
 				B2EEBB7C2C90F89F00598CCF /* ContentView.swift */,
+				B2EEBBB42C91086800598CCF /* FactViewModel.swift */,
 				B2EEBBB02C91019C00598CCF /* FactButton.swift */,
+				B2EEBBB22C9103B500598CCF /* FactService.swift */,
 				B2EEBBAE2C91018700598CCF /* FactView.swift */,
 				B2EEBB7E2C90F8A000598CCF /* Assets.xcassets */,
 				B2EEBB802C90F8A000598CCF /* Preview Content */,
@@ -263,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2EEBBB52C91086800598CCF /* FactViewModel.swift in Sources */,
 				B2EEBBAF2C91018700598CCF /* FactView.swift in Sources */,
+				B2EEBBB32C9103B500598CCF /* FactService.swift in Sources */,
 				B2EEBBB12C91019C00598CCF /* FactButton.swift in Sources */,
 				B2EEBB7D2C90F89F00598CCF /* ContentView.swift in Sources */,
 				B2EEBB7B2C90F89F00598CCF /* iFactsApp.swift in Sources */,

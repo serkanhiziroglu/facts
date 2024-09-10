@@ -15,6 +15,8 @@ struct FactView: View {
     }
 }
 
-#Preview {
-    FactView(currentFact: "Sample Fact")
+struct FactView_Previews: PreviewProvider {
+    static var previews: some View {
+        FactView(currentFact: "This is a sample fact for preview.")
+    }
 }
